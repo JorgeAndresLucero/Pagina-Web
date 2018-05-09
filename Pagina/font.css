@@ -1,0 +1,255 @@
+
+body{
+background-image: url(img/fondito.jpg); 
+}
+
+
+#banner h1,h2{
+	color: white;
+	font-family: Cooper Black;	
+ }
+ 
+ #contenedor{
+	 background:white;
+	 height:1550px;
+	 width:950px;
+	 margin-right:auto;
+	 margin-left:auto;
+
+ }
+
+ header{
+	  background:white;
+	 height:60px;
+	 width:950px;
+	 
+	 	   }
+		   
+ header article{
+	height:20px;
+	width: 200px;
+	background-image: url(img/boton.png); 
+	display:inline-block;
+	vertical-align:top;
+	text-align:center;
+	padding:20px;
+	color: white;
+	font-family: Cooper Black;
+	
+}
+		   
+		  
+#banner{
+	width:900px;
+	height:200px;
+	text-align: center;
+	box-shadow: 10px 15px 15px rgb(200,200,200)  ;
+	margin:auto;
+	background: url(img/banner.jpg); 
+	 background-size:cover;
+	padding:20px;
+	  }
+			   
+			 #banner #escudo {
+				  
+					display:inline-block;
+					vertical-align:top
+				}
+
+				#banner #presentacion {
+				 					
+					display:inline-block;
+					vertical-align:top-width;
+			
+				}
+
+
+	 #pelota{
+		background:url(img/fondoPelota.png);
+		height:400px;
+		width:400px;
+		margin:auto;
+	 }
+	
+		 #alrededor{
+			background:#0c058b;
+			margin:left;
+		}
+#integrantes,#perfil {
+	background:#a1bcc4;
+		height:400px;
+		width:920px;
+		margin:auto;
+		text-align:center;
+	  
+}
+#centrar {
+		width:880px;
+		margin:auto;
+		padding:20px;
+		}
+
+p{
+	color: white;
+	font-family: Cooper Black;
+font-size:16px;	
+}
+
+#integrantes  article{
+	height:200px;
+	width:270px;
+	background:#a1b892;
+	display:inline-block;
+	vertical-align:top;
+	text-align:center;
+    padding:10px;
+}
+ 
+
+
+ #separador{
+	height:20px;
+	width:950px;
+ }
+
+ #perfil{
+	height:700px;
+	width: 890px;
+	padding:10px;
+	 
+ }
+ 
+ #foto {
+	 background:   #2980b9 ;
+	 height:125px;
+	 width: 254px;
+	 padding:2px;
+	  
+ }
+ 
+ #texto{
+	 background:  #154360   ;
+	 height:650px;
+	width: 600px;
+	padding:10px;
+	
+ }
+ #foto img{
+  height:300px;
+  width:250px;
+ 
+  }
+ 
+ #cursiva{
+	 color: #908b8a;
+	font-family: Vivaldi;	
+   font-size: 35px;
+ }
+ #autor{
+	 color: #908b8a;
+	font-family: Vivaldi;	
+   font-size: 20px;
+   text-align:right;
+ }
+ 
+  h3{
+font-size: 35px;
+  color: #76d7c4;
+  font-family:'Matura MT Script Capitals'; 
+	  
+  }
+
+    #texto,#foto{
+		display:inline-block;
+		vertical-align:top;
+		
+		 
+  }
+  
+  #personal{
+	  background: #154360 ;
+	  height:420px;
+	width: 906px;
+	margin:auto;
+	padding:10px;
+	
+  }
+#personal article{
+	height:400px;
+	width: 430px;
+	background: #a1bcc4 ;
+	display:inline-block;
+	vertical-align:top;
+	text-align:center;
+	padding:10px;
+	}
+
+
+
+#hobbies img{
+	height:120px;
+  width:120px;
+border: 2px solid  #a1bcc4 ;
+text-align:bottom;
+}
+
+#principal img{
+	height:90px;
+  width:430px;
+  background: #a1b892 ;
+	
+	}
+
+iframe{
+height:290px;
+width:400px;
+}
+
+li{
+  font-size: 35px;
+  color: white;
+  font-family:'Matura MT Script Capitals'; 
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?i226ha');
+  src:  url('fonts/icomoon.eot?i226ha#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?i226ha') format('truetype'),
+    url('fonts/icomoon.woff?i226ha') format('woff'),
+    url('fonts/icomoon.svg?i226ha#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+.icon-github:before {
+content:"";
+color: black;
+}
